@@ -338,6 +338,26 @@
 }
 
 /* ************************  */
+/* BELLOW 400px (Smartphones)*/
+
+@media (max-width: 25em) {
+  .meal {
+    max-width: 36rem;
+    margin: 0 auto;
+  }
+
+  .diet-list {
+    max-width: 36rem;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .align-meal {
+    justify-content: center;
+  }
+}
+
+/* ************************  */
 /* FIXING SAFARI FLEXBOX GAP*/
 
 no-flexbox-gap .main-nav-list li:not(:last-child) {
